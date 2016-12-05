@@ -13,5 +13,9 @@
     "useless"
   ],
   "author": "Clemens Himmer",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^2.0.0"
+  }
 }
