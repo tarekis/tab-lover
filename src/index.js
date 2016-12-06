@@ -4,7 +4,7 @@ window.lovelyTabMessage = (function(){
     var lovelyMessages = Object.keys(messages);
     var lovelyHearts = ['❤','💓','💖','💗','💘','💝','💕'];
     // Roll the dices of love and get our string base!
-    var lovelyMessage = lovelyOptions[Math.floor(Math.random() * (lovelyMessages.length))];
+    var lovelyMessage = lovelyMessages[Math.floor(Math.random() * (lovelyMessages.length))];
     var lovelyHeart = lovelyHearts[Math.floor(Math.random() * (lovelyHearts.length))];
     // Maybe we can make our users REALLY happy by using their native language?
     var lang = (window && window.navigator && window.navigator.userLanguage || window.navigator.language);
