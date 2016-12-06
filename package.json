@@ -2,7 +2,7 @@
   "name": "tab-lover",
   "version": "1.0.0",
   "description": "Let your users know you LOVE them!",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,7 +15,6 @@
   "author": "Clemens Himmer",
   "license": "MIT",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-uglify": "^2.0.0"
+    "webpack": "^1.13.3"
   }
 }
