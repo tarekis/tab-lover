@@ -1,14 +1,19 @@
+var webpack = require('webpack');
 var path = require('path');
 
 module.exports = {
-    entry: path.join(__dirname,'src','index.js'),
+    entry: {
+        "tab-lover": path.join(__dirname,'src','index.js'),
+        "tab-lover.min": path.join(__dirname,'src','index.js'),
+    },
     output: {
         path: path.join(__dirname,'dist'),
-        filename: 'tab-lover.js'
+        filename: '[name].js'
     },
-    module: {
-        loaders: [
-            { test: /\.css$/, loader: "style!css" }
-        ]
-    }
+    plugins: [
+        new webpack.optimize.UglifyJsPlugin({
+            include: /\.min\.js$/,
+            minimize: true
+        })
+    ]
 };

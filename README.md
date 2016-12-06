@@ -10,7 +10,7 @@ Yeah, me neither, but here's a package for just that!
 
 npm:
 ```
-npm install tab-lover
+npm install --save tab-lover
 ```
 
 Now just add the end-point of the package into your bundler or throw it into a script tag.
