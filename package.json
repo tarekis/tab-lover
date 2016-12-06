@@ -1,6 +1,6 @@
 {
   "name": "tab-lover",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Let your users know you LOVE them!",
   "main": "./dist/tab-lover.dist.js",
   "scripts": {
