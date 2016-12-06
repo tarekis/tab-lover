@@ -1,8 +1,8 @@
 {
   "name": "tab-lover",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Let your users know you LOVE them!",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,5 +13,8 @@
     "useless"
   ],
   "author": "Clemens Himmer",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^1.13.3"
+  }
 }
