@@ -1,10 +1,14 @@
 {
   "name": "tab-lover",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Let your users know you LOVE them!",
-  "main": "./dist/tab-lover.dist.js",
+  "main": "./dist/tab-lover.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/tarekis/tab-lover.git"
   },
   "keywords": [
     "love",
